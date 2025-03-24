@@ -1,3 +1,6 @@
+#Mathias Rosales 10/03/25
+
+
 tareas = ["Sacar dinero del banco", 
           "hacer la colada", 
           "dar un paseo", 

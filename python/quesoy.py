@@ -1,3 +1,6 @@
+#Mathias Rosales 10/03/25
+
+
 dato1 = 42          # num. int
 dato2 = 3.1416      # num. float
 dato3 = "Python"    # String
