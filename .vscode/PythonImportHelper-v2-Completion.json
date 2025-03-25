@@ -304,5 +304,113 @@
         "peekOfCode": "nuevas_pistas = (\"boton\", \"puerta grande\", \"calaverita\", \"flechas\")\nprint(nuevas_pistas)\n#septima pregunta\nprint(pistas[4])\n#octava pregunta\nprint(pistas.count(7))",
         "detail": "tuplas.sherlock",
         "documentation": {}
+    },
+    {
+        "label": "pesos_col",
+        "kind": 5,
+        "importPath": "x.divisas",
+        "description": "x.divisas",
+        "peekOfCode": "pesos_col = 0.00025\nSoles_pe = 0.28\nreales_bra = 0.21\npesos_col = int(input(\"¿cuantos pesos colombianos te quedan?\"))\nSoles_pe = int(input(\"¿cuantos soles peruanos te quedan?\"))\nreales_bra = int(input(\"¿cuantos reales brasileros te quedan?\"))\ntotal = pesos_col* 0.0025 + Soles_pe*0.28 + reales_bra*0.21\nprint(total)",
+        "detail": "x.divisas",
+        "documentation": {}
+    },
+    {
+        "label": "Soles_pe",
+        "kind": 5,
+        "importPath": "x.divisas",
+        "description": "x.divisas",
+        "peekOfCode": "Soles_pe = 0.28\nreales_bra = 0.21\npesos_col = int(input(\"¿cuantos pesos colombianos te quedan?\"))\nSoles_pe = int(input(\"¿cuantos soles peruanos te quedan?\"))\nreales_bra = int(input(\"¿cuantos reales brasileros te quedan?\"))\ntotal = pesos_col* 0.0025 + Soles_pe*0.28 + reales_bra*0.21\nprint(total)",
+        "detail": "x.divisas",
+        "documentation": {}
+    },
+    {
+        "label": "reales_bra",
+        "kind": 5,
+        "importPath": "x.divisas",
+        "description": "x.divisas",
+        "peekOfCode": "reales_bra = 0.21\npesos_col = int(input(\"¿cuantos pesos colombianos te quedan?\"))\nSoles_pe = int(input(\"¿cuantos soles peruanos te quedan?\"))\nreales_bra = int(input(\"¿cuantos reales brasileros te quedan?\"))\ntotal = pesos_col* 0.0025 + Soles_pe*0.28 + reales_bra*0.21\nprint(total)",
+        "detail": "x.divisas",
+        "documentation": {}
+    },
+    {
+        "label": "pesos_col",
+        "kind": 5,
+        "importPath": "x.divisas",
+        "description": "x.divisas",
+        "peekOfCode": "pesos_col = int(input(\"¿cuantos pesos colombianos te quedan?\"))\nSoles_pe = int(input(\"¿cuantos soles peruanos te quedan?\"))\nreales_bra = int(input(\"¿cuantos reales brasileros te quedan?\"))\ntotal = pesos_col* 0.0025 + Soles_pe*0.28 + reales_bra*0.21\nprint(total)",
+        "detail": "x.divisas",
+        "documentation": {}
+    },
+    {
+        "label": "Soles_pe",
+        "kind": 5,
+        "importPath": "x.divisas",
+        "description": "x.divisas",
+        "peekOfCode": "Soles_pe = int(input(\"¿cuantos soles peruanos te quedan?\"))\nreales_bra = int(input(\"¿cuantos reales brasileros te quedan?\"))\ntotal = pesos_col* 0.0025 + Soles_pe*0.28 + reales_bra*0.21\nprint(total)",
+        "detail": "x.divisas",
+        "documentation": {}
+    },
+    {
+        "label": "reales_bra",
+        "kind": 5,
+        "importPath": "x.divisas",
+        "description": "x.divisas",
+        "peekOfCode": "reales_bra = int(input(\"¿cuantos reales brasileros te quedan?\"))\ntotal = pesos_col* 0.0025 + Soles_pe*0.28 + reales_bra*0.21\nprint(total)",
+        "detail": "x.divisas",
+        "documentation": {}
+    },
+    {
+        "label": "total",
+        "kind": 5,
+        "importPath": "x.divisas",
+        "description": "x.divisas",
+        "peekOfCode": "total = pesos_col* 0.0025 + Soles_pe*0.28 + reales_bra*0.21\nprint(total)",
+        "detail": "x.divisas",
+        "documentation": {}
+    },
+    {
+        "label": "peso",
+        "kind": 5,
+        "importPath": "x.imc",
+        "description": "x.imc",
+        "peekOfCode": "peso = 67\naltura = 1.68\nimc = peso / (altura**2)\nprint(f\"tu índice de imc es: {imc}\")",
+        "detail": "x.imc",
+        "documentation": {}
+    },
+    {
+        "label": "altura",
+        "kind": 5,
+        "importPath": "x.imc",
+        "description": "x.imc",
+        "peekOfCode": "altura = 1.68\nimc = peso / (altura**2)\nprint(f\"tu índice de imc es: {imc}\")",
+        "detail": "x.imc",
+        "documentation": {}
+    },
+    {
+        "label": "imc",
+        "kind": 5,
+        "importPath": "x.imc",
+        "description": "x.imc",
+        "peekOfCode": "imc = peso / (altura**2)\nprint(f\"tu índice de imc es: {imc}\")",
+        "detail": "x.imc",
+        "documentation": {}
+    },
+    {
+        "label": "fahrenheit",
+        "kind": 5,
+        "importPath": "x.temperatura",
+        "description": "x.temperatura",
+        "peekOfCode": "fahrenheit = 59\nCelsius = (fahrenheit -32) /1.8\nprint(Celsius)",
+        "detail": "x.temperatura",
+        "documentation": {}
+    },
+    {
+        "label": "Celsius",
+        "kind": 5,
+        "importPath": "x.temperatura",
+        "description": "x.temperatura",
+        "peekOfCode": "Celsius = (fahrenheit -32) /1.8\nprint(Celsius)",
+        "detail": "x.temperatura",
+        "documentation": {}
     }
 ]
