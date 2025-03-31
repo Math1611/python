@@ -1,5 +1,41 @@
 [
     {
+        "label": "random",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "random",
+        "description": "random",
+        "detail": "random",
+        "documentation": {}
+    },
+    {
+        "label": "num",
+        "kind": 5,
+        "importPath": "control-de-flujo.caraosello",
+        "description": "control-de-flujo.caraosello",
+        "peekOfCode": "num = random.randint(0, 1)\nif num > 0.5 :\n    print(\"cara\")\nelse:\n    print(\"sello\")",
+        "detail": "control-de-flujo.caraosello",
+        "documentation": {}
+    },
+    {
+        "label": "nota1",
+        "kind": 5,
+        "importPath": "control-de-flujo.promedio",
+        "description": "control-de-flujo.promedio",
+        "peekOfCode": "nota1 = 70\nif nota1 >=40 :\n    print(\"pasaste\")\nelse:\n    print(\"no pasaste\")\nnota = int(input(\"ingresa tu nota:\"))\nif nota >= 40 :\n    print(\"tu pasaste!\")\nelse :\n    print(\"No pasaste :c\")",
+        "detail": "control-de-flujo.promedio",
+        "documentation": {}
+    },
+    {
+        "label": "nota",
+        "kind": 5,
+        "importPath": "control-de-flujo.promedio",
+        "description": "control-de-flujo.promedio",
+        "peekOfCode": "nota = int(input(\"ingresa tu nota:\"))\nif nota >= 40 :\n    print(\"tu pasaste!\")\nelse :\n    print(\"No pasaste :c\")",
+        "detail": "control-de-flujo.promedio",
+        "documentation": {}
+    },
+    {
         "label": "mi_lista",
         "kind": 5,
         "importPath": "python.01_append",
