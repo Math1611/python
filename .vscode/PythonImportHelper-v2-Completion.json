@@ -9,12 +9,102 @@
         "documentation": {}
     },
     {
+        "label": "usuario",
+        "kind": 5,
+        "importPath": "control-de-flujo.and",
+        "description": "control-de-flujo.and",
+        "peekOfCode": "usuario = print(\"ingresa tu nombre\")\nhambre = int(print(\"Cuanta hambre tienes? (1-10)\"))\nenojo = int(print(\"Que tanto estas enojado? (1-10)\"))\nif hambre > 4 and enojo > 1 :\n    print(\"enfadado por hambre\")",
+        "detail": "control-de-flujo.and",
+        "documentation": {}
+    },
+    {
+        "label": "hambre",
+        "kind": 5,
+        "importPath": "control-de-flujo.and",
+        "description": "control-de-flujo.and",
+        "peekOfCode": "hambre = int(print(\"Cuanta hambre tienes? (1-10)\"))\nenojo = int(print(\"Que tanto estas enojado? (1-10)\"))\nif hambre > 4 and enojo > 1 :\n    print(\"enfadado por hambre\")",
+        "detail": "control-de-flujo.and",
+        "documentation": {}
+    },
+    {
+        "label": "enojo",
+        "kind": 5,
+        "importPath": "control-de-flujo.and",
+        "description": "control-de-flujo.and",
+        "peekOfCode": "enojo = int(print(\"Que tanto estas enojado? (1-10)\"))\nif hambre > 4 and enojo > 1 :\n    print(\"enfadado por hambre\")",
+        "detail": "control-de-flujo.and",
+        "documentation": {}
+    },
+    {
+        "label": "pregunta",
+        "kind": 5,
+        "importPath": "control-de-flujo.bola-8",
+        "description": "control-de-flujo.bola-8",
+        "peekOfCode": "pregunta = int(input(\"pregunta:\"))\nif pregunta :\n    print(\"pasastee\")\nelif pregunta:\n    print(\"paso\")\nelif pregunta:\n    print(\"vas por un buen camino\")\nelif pregunta:\n    print(\"igual pasaste\")\nelif pregunta:",
+        "detail": "control-de-flujo.bola-8",
+        "documentation": {}
+    },
+    {
         "label": "num",
         "kind": 5,
         "importPath": "control-de-flujo.caraosello",
         "description": "control-de-flujo.caraosello",
         "peekOfCode": "num = random.randint(0, 1)\nif num > 0.5 :\n    print(\"cara\")\nelse:\n    print(\"sello\")",
         "detail": "control-de-flujo.caraosello",
+        "documentation": {}
+    },
+    {
+        "label": "nota",
+        "kind": 5,
+        "importPath": "control-de-flujo.elif",
+        "description": "control-de-flujo.elif",
+        "peekOfCode": "nota = 40\nif nota > 70:\n    print(\"pasastee\")\nelif nota >60:\n    print(\"paso\")\nelif nota >50:\n    print(\"vas por un buen camino\")\nelif nota >40:\n    print(\"igual pasaste\")\nelif nota >30:",
+        "detail": "control-de-flujo.elif",
+        "documentation": {}
+    },
+    {
+        "label": "respuesta",
+        "kind": 5,
+        "importPath": "control-de-flujo.not",
+        "description": "control-de-flujo.not",
+        "peekOfCode": "respuesta = input(\"Estas cansado? (Si/No):\").strip().lower()\ncansado = respuesta == \"si\"\nif not cansado: \n    print(\"Es hora de programar\")\nelse:\n    print(\"tomate un descanso\")",
+        "detail": "control-de-flujo.not",
+        "documentation": {}
+    },
+    {
+        "label": "cansado",
+        "kind": 5,
+        "importPath": "control-de-flujo.not",
+        "description": "control-de-flujo.not",
+        "peekOfCode": "cansado = respuesta == \"si\"\nif not cansado: \n    print(\"Es hora de programar\")\nelse:\n    print(\"tomate un descanso\")",
+        "detail": "control-de-flujo.not",
+        "documentation": {}
+    },
+    {
+        "label": "cafe",
+        "kind": 5,
+        "importPath": "control-de-flujo.or",
+        "description": "control-de-flujo.or",
+        "peekOfCode": "cafe = int(input(\"Cuantas tazas de cafe haz tomado hoy? (0 o mas):\"))\nte_burbujas = int(input(\"cuantas tazas de te de burbuja haz tomado hoy? (0 o mas): \"))\nif cafe > 0 or te_burbujas > 0 :\n    print(\"Que bien!! y que rico \")\nelse:\n    print(\"Parece que no has tomado nada especial hoy. :CCC\")",
+        "detail": "control-de-flujo.or",
+        "documentation": {}
+    },
+    {
+        "label": "te_burbujas",
+        "kind": 5,
+        "importPath": "control-de-flujo.or",
+        "description": "control-de-flujo.or",
+        "peekOfCode": "te_burbujas = int(input(\"cuantas tazas de te de burbuja haz tomado hoy? (0 o mas): \"))\nif cafe > 0 or te_burbujas > 0 :\n    print(\"Que bien!! y que rico \")\nelse:\n    print(\"Parece que no has tomado nada especial hoy. :CCC\")",
+        "detail": "control-de-flujo.or",
+        "documentation": {}
+    },
+    {
+        "label": "ph",
+        "kind": 5,
+        "importPath": "control-de-flujo.ph",
+        "description": "control-de-flujo.ph",
+        "peekOfCode": "ph = int(input(\"ingresa el nivel de ph (0-14):\"))\nif ph > 7:\n    print(\"básico\")\nelif ph < 7:\n    print(\"Ácido\")\nelse:\n    print(\"Neutro\")",
+        "detail": "control-de-flujo.ph",
         "documentation": {}
     },
     {
