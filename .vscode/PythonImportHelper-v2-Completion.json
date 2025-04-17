@@ -126,6 +126,285 @@
         "documentation": {}
     },
     {
+        "label": "sumar",
+        "kind": 2,
+        "importPath": "funciones.alcance_global",
+        "description": "funciones.alcance_global",
+        "peekOfCode": "def sumar(x,y):\n    respuesta = x+y \n    return respuesta\nprint(sumar(4, 2))\n#global\nrespuesta = 0\ndef sumar(x,y):\n    respuesta = x + y\n    return respuesta\nprint(sumar(2,1))",
+        "detail": "funciones.alcance_global",
+        "documentation": {}
+    },
+    {
+        "label": "sumar",
+        "kind": 2,
+        "importPath": "funciones.alcance_global",
+        "description": "funciones.alcance_global",
+        "peekOfCode": "def sumar(x,y):\n    respuesta = x + y\n    return respuesta\nprint(sumar(2,1))",
+        "detail": "funciones.alcance_global",
+        "documentation": {}
+    },
+    {
+        "label": "respuesta",
+        "kind": 5,
+        "importPath": "funciones.alcance_global",
+        "description": "funciones.alcance_global",
+        "peekOfCode": "respuesta = 0\ndef sumar(x,y):\n    respuesta = x + y\n    return respuesta\nprint(sumar(2,1))",
+        "detail": "funciones.alcance_global",
+        "documentation": {}
+    },
+    {
+        "label": "suma",
+        "kind": 2,
+        "importPath": "funciones.calculadora",
+        "description": "funciones.calculadora",
+        "peekOfCode": "def suma(a , b):\n    return  a + b\nrespuesta = suma(a , b)\nprint(respuesta)\ndef resta(a , b):\n    return  a - b\nrespuesta = resta(a , b)\nprint(respuesta)\ndef multiplicar(a , b):\n    return  a * b",
+        "detail": "funciones.calculadora",
+        "documentation": {}
+    },
+    {
+        "label": "resta",
+        "kind": 2,
+        "importPath": "funciones.calculadora",
+        "description": "funciones.calculadora",
+        "peekOfCode": "def resta(a , b):\n    return  a - b\nrespuesta = resta(a , b)\nprint(respuesta)\ndef multiplicar(a , b):\n    return  a * b\nrespuesta = multiplicar(a , b)\nprint(respuesta)\ndef dividir(a , b):\n    return  a / b",
+        "detail": "funciones.calculadora",
+        "documentation": {}
+    },
+    {
+        "label": "multiplicar",
+        "kind": 2,
+        "importPath": "funciones.calculadora",
+        "description": "funciones.calculadora",
+        "peekOfCode": "def multiplicar(a , b):\n    return  a * b\nrespuesta = multiplicar(a , b)\nprint(respuesta)\ndef dividir(a , b):\n    return  a / b\nrespuesta = dividir(a , b)\nprint(respuesta)\ndef potencia(a , b):\n    return  a ** b",
+        "detail": "funciones.calculadora",
+        "documentation": {}
+    },
+    {
+        "label": "dividir",
+        "kind": 2,
+        "importPath": "funciones.calculadora",
+        "description": "funciones.calculadora",
+        "peekOfCode": "def dividir(a , b):\n    return  a / b\nrespuesta = dividir(a , b)\nprint(respuesta)\ndef potencia(a , b):\n    return  a ** b\nrespuesta = potencia(a , b)\nprint(respuesta)",
+        "detail": "funciones.calculadora",
+        "documentation": {}
+    },
+    {
+        "label": "potencia",
+        "kind": 2,
+        "importPath": "funciones.calculadora",
+        "description": "funciones.calculadora",
+        "peekOfCode": "def potencia(a , b):\n    return  a ** b\nrespuesta = potencia(a , b)\nprint(respuesta)",
+        "detail": "funciones.calculadora",
+        "documentation": {}
+    },
+    {
+        "label": "a",
+        "kind": 5,
+        "importPath": "funciones.calculadora",
+        "description": "funciones.calculadora",
+        "peekOfCode": "a = 10\nb = 10\ndef suma(a , b):\n    return  a + b\nrespuesta = suma(a , b)\nprint(respuesta)\ndef resta(a , b):\n    return  a - b\nrespuesta = resta(a , b)\nprint(respuesta)",
+        "detail": "funciones.calculadora",
+        "documentation": {}
+    },
+    {
+        "label": "b",
+        "kind": 5,
+        "importPath": "funciones.calculadora",
+        "description": "funciones.calculadora",
+        "peekOfCode": "b = 10\ndef suma(a , b):\n    return  a + b\nrespuesta = suma(a , b)\nprint(respuesta)\ndef resta(a , b):\n    return  a - b\nrespuesta = resta(a , b)\nprint(respuesta)\ndef multiplicar(a , b):",
+        "detail": "funciones.calculadora",
+        "documentation": {}
+    },
+    {
+        "label": "respuesta",
+        "kind": 5,
+        "importPath": "funciones.calculadora",
+        "description": "funciones.calculadora",
+        "peekOfCode": "respuesta = suma(a , b)\nprint(respuesta)\ndef resta(a , b):\n    return  a - b\nrespuesta = resta(a , b)\nprint(respuesta)\ndef multiplicar(a , b):\n    return  a * b\nrespuesta = multiplicar(a , b)\nprint(respuesta)",
+        "detail": "funciones.calculadora",
+        "documentation": {}
+    },
+    {
+        "label": "respuesta",
+        "kind": 5,
+        "importPath": "funciones.calculadora",
+        "description": "funciones.calculadora",
+        "peekOfCode": "respuesta = resta(a , b)\nprint(respuesta)\ndef multiplicar(a , b):\n    return  a * b\nrespuesta = multiplicar(a , b)\nprint(respuesta)\ndef dividir(a , b):\n    return  a / b\nrespuesta = dividir(a , b)\nprint(respuesta)",
+        "detail": "funciones.calculadora",
+        "documentation": {}
+    },
+    {
+        "label": "respuesta",
+        "kind": 5,
+        "importPath": "funciones.calculadora",
+        "description": "funciones.calculadora",
+        "peekOfCode": "respuesta = multiplicar(a , b)\nprint(respuesta)\ndef dividir(a , b):\n    return  a / b\nrespuesta = dividir(a , b)\nprint(respuesta)\ndef potencia(a , b):\n    return  a ** b\nrespuesta = potencia(a , b)\nprint(respuesta)",
+        "detail": "funciones.calculadora",
+        "documentation": {}
+    },
+    {
+        "label": "respuesta",
+        "kind": 5,
+        "importPath": "funciones.calculadora",
+        "description": "funciones.calculadora",
+        "peekOfCode": "respuesta = dividir(a , b)\nprint(respuesta)\ndef potencia(a , b):\n    return  a ** b\nrespuesta = potencia(a , b)\nprint(respuesta)",
+        "detail": "funciones.calculadora",
+        "documentation": {}
+    },
+    {
+        "label": "respuesta",
+        "kind": 5,
+        "importPath": "funciones.calculadora",
+        "description": "funciones.calculadora",
+        "peekOfCode": "respuesta = potencia(a , b)\nprint(respuesta)",
+        "detail": "funciones.calculadora",
+        "documentation": {}
+    },
+    {
+        "label": "distancia_a_millas",
+        "kind": 2,
+        "importPath": "funciones.cohete",
+        "description": "funciones.cohete",
+        "peekOfCode": "def distancia_a_millas(distancia):\n    return distancia / 1.609\nrespuesta = distancia_a_millas(10000)\nprint(respuesta)",
+        "detail": "funciones.cohete",
+        "documentation": {}
+    },
+    {
+        "label": "respuesta",
+        "kind": 5,
+        "importPath": "funciones.cohete",
+        "description": "funciones.cohete",
+        "peekOfCode": "respuesta = distancia_a_millas(10000)\nprint(respuesta)",
+        "detail": "funciones.cohete",
+        "documentation": {}
+    },
+    {
+        "label": "fortuna",
+        "kind": 2,
+        "importPath": "funciones.fortuna",
+        "description": "funciones.fortuna",
+        "peekOfCode": "def fortuna():\n    fortuna = random.randint(0, len(palabras_fortuna) - 1)\n    print(palabras_fortuna[fortuna])\nfortuna()\nfortuna()\nfortuna()",
+        "detail": "funciones.fortuna",
+        "documentation": {}
+    },
+    {
+        "label": "palabras_fortuna",
+        "kind": 5,
+        "importPath": "funciones.fortuna",
+        "description": "funciones.fortuna",
+        "peekOfCode": "palabras_fortuna = [\n    \"No persigas la felicidad, créala.\",\n    \"Todas las cosas son difíciles antes de ser fáciles.\",\n    \"El pajaro madrugador consigue el gusano, pero el segundo ratón se lleva el queso.\",\n    \"Alguien en tu vida necesita una carta de tu parte.\",\n    \"No solo pienses. ¡Actúa!.\",\n    \"TU corazon se acelerará.\",\n    \"La fortuna que buscas está en otra galleta.\",\n    \"Ayuda! Estoy prisionero en una panaderia china!.\"\n]",
+        "detail": "funciones.fortuna",
+        "documentation": {}
+    },
+    {
+        "label": "decir_hola",
+        "kind": 2,
+        "importPath": "funciones.hello",
+        "description": "funciones.hello",
+        "peekOfCode": "def decir_hola():\n    print(\"Hola!\")\n    print(\"¿Cómo estás?\")   \ndecir_hola()\ndecir_hola()\ndecir_hola()",
+        "detail": "funciones.hello",
+        "documentation": {}
+    },
+    {
+        "label": "feliz_cumpleaños",
+        "kind": 2,
+        "importPath": "funciones.parametrosyargumentos",
+        "description": "funciones.parametrosyargumentos",
+        "peekOfCode": "def feliz_cumpleaños(nombre):\n    print(\"Feliz cumpleaños a ti!\")\n    print(\"Feliz cumpleaños a ti!\")\n    print(\"Feliz cumpleaños querido amigo \"  + nombre)\n    print(\"Feliz cumpleaños a ti!\")\nfeliz_cumpleaños(\"Juan diego\")",
+        "detail": "funciones.parametrosyargumentos",
+        "documentation": {}
+    },
+    {
+        "label": "adivinanza",
+        "kind": 5,
+        "importPath": "loops.adivinanza",
+        "description": "loops.adivinanza",
+        "peekOfCode": "adivinanza = 0\nintentos = 5\nwhile adivinanza != 6 and intentos > 0:\n    adivinanza = int(input(\"adivinanza el número: \"))\n    intentos -=1\nif intentos ==0:\n    print(\"te quedaste sin intentos\")\nelse:\n    print(\"adivinaste\")",
+        "detail": "loops.adivinanza",
+        "documentation": {}
+    },
+    {
+        "label": "intentos",
+        "kind": 5,
+        "importPath": "loops.adivinanza",
+        "description": "loops.adivinanza",
+        "peekOfCode": "intentos = 5\nwhile adivinanza != 6 and intentos > 0:\n    adivinanza = int(input(\"adivinanza el número: \"))\n    intentos -=1\nif intentos ==0:\n    print(\"te quedaste sin intentos\")\nelse:\n    print(\"adivinaste\")",
+        "detail": "loops.adivinanza",
+        "documentation": {}
+    },
+    {
+        "label": "user_elefantes",
+        "kind": 5,
+        "importPath": "loops.elefante",
+        "description": "loops.elefante",
+        "peekOfCode": "user_elefantes = int(input(\"¿Cuántos elefantes quieres que cante? \"))\nfor i in range(1, user_elefantes + 1):\n    if i == 1:\n        print(f\"{i} elefante se columpiaba sobre la tela de una araña, Como veía que resistía, fue a llamar a otro elefante\\n\")\n    else:\n        print(f\"{i} elefantes se columpiaban sobre la tela de una araña, Como veía que resistía, fueron a llamar a otro elefante\\n\")",
+        "detail": "loops.elefante",
+        "documentation": {}
+    },
+    {
+        "label": "#lluvia",
+        "kind": 5,
+        "importPath": "loops.for",
+        "description": "loops.for",
+        "peekOfCode": "#lluvia = [0.3, 0.0, 0.0, 1.2]\n#for i in lluvia:\n#    print(i)\nlluvia = [0.3, 0.0, 0.0, 1.2]\nfor i in range(len(lluvia)):\n    print(lluvia[i])",
+        "detail": "loops.for",
+        "documentation": {}
+    },
+    {
+        "label": "lluvia",
+        "kind": 5,
+        "importPath": "loops.for",
+        "description": "loops.for",
+        "peekOfCode": "lluvia = [0.3, 0.0, 0.0, 1.2]\nfor i in range(len(lluvia)):\n    print(lluvia[i])",
+        "detail": "loops.for",
+        "documentation": {}
+    },
+    {
+        "label": "contador",
+        "kind": 5,
+        "importPath": "loops.instrucciones",
+        "description": "loops.instrucciones",
+        "peekOfCode": "contador = 0\nwhile contador < 10:\n    print(\"contador\")\n    contador +=1\nelse:\n    print(\"dejo de contar\")\ncontador = 0 \nwhile contador <5:\n    contador +=1\n    if (contador ==4):",
+        "detail": "loops.instrucciones",
+        "documentation": {}
+    },
+    {
+        "label": "contador",
+        "kind": 5,
+        "importPath": "loops.instrucciones",
+        "description": "loops.instrucciones",
+        "peekOfCode": "contador = 0 \nwhile contador <5:\n    contador +=1\n    if (contador ==4):\n        print(\"se rompio el bucle\")\n        break\n    print(\"Contador\")\ncontador = 0\nwhile contador <5:\n    contador +=1",
+        "detail": "loops.instrucciones",
+        "documentation": {}
+    },
+    {
+        "label": "contador",
+        "kind": 5,
+        "importPath": "loops.instrucciones",
+        "description": "loops.instrucciones",
+        "peekOfCode": "contador = 0\nwhile contador <5:\n    contador +=1\n    if (contador ==3):\n        continue\n    print(contador)",
+        "detail": "loops.instrucciones",
+        "documentation": {}
+    },
+    {
+        "label": "playlist",
+        "kind": 5,
+        "importPath": "loops.mixtape",
+        "description": "loops.mixtape",
+        "peekOfCode": "playlist = [\n    \"\\nPorches - rangaerover\",\n    \"mount Eerie - You Swan, Go-On\",\n    \"Carolyn polachek - Look at Me Now\",\n    \"Pinegrove - Darkness\",\n    \"LVL UP - Spirit Was\",\n    \"Mistski - first love / late spring\",]\nfor i in playlist:\n    print(i)",
+        "detail": "loops.mixtape",
+        "documentation": {}
+    },
+    {
+        "label": "pin",
+        "kind": 5,
+        "importPath": "loops.pin",
+        "description": "loops.pin",
+        "peekOfCode": "pin = int(input(\"Ingresa tu pin:\"))\nwhile pin != 1234:\n    print = int(input(\"PIN incorrecto. Ingresa tu pin nuevamente:\"))\nif pin ==1234:\n    print(\"PIN aceptado!!!\")\n    print(\"Bienvenido a tu cuenta\")",
+        "detail": "loops.pin",
+        "documentation": {}
+    },
+    {
         "label": "mi_lista",
         "kind": 5,
         "importPath": "python.01_append",
@@ -216,6 +495,15 @@
         "documentation": {}
     },
     {
+        "label": "estaciones",
+        "kind": 5,
+        "importPath": "python.estaciones",
+        "description": "python.estaciones",
+        "peekOfCode": "estaciones = int(input(\"¿En qué mes del año estamos y te diré la estación que andamos. (1-12): \"))\nif estaciones  in [1, 2 ,3]:\n    print(\"Invierno\")\nelif estaciones in [4, 5 ,6]:\n    print(\"Primavera\")\nelif estaciones in [7, 8 ,9]:\n    print(\"Verano\")\nelif estaciones in [10, 11 ,12]:\n    print(\"Otoño\")\nelse:",
+        "detail": "python.estaciones",
+        "documentation": {}
+    },
+    {
         "label": "lista_bandas",
         "kind": 5,
         "importPath": "python.explorador",
@@ -243,6 +531,51 @@
         "documentation": {}
     },
     {
+        "label": "a",
+        "kind": 5,
+        "importPath": "python.hola",
+        "description": "python.hola",
+        "peekOfCode": "a = 3 + 2\nb = \"string\"\nc = 20 / 2\nprint (a)\nprint (len(b + str(a) + str(c)))\nprint(\"hola mundo\")\nprint(\"           1\")\nprint(\"        2  3\")\nprint(\"     4  5  6\")\nprint(\" 7  8  9  10\")",
+        "detail": "python.hola",
+        "documentation": {}
+    },
+    {
+        "label": "b",
+        "kind": 5,
+        "importPath": "python.hola",
+        "description": "python.hola",
+        "peekOfCode": "b = \"string\"\nc = 20 / 2\nprint (a)\nprint (len(b + str(a) + str(c)))\nprint(\"hola mundo\")\nprint(\"           1\")\nprint(\"        2  3\")\nprint(\"     4  5  6\")\nprint(\" 7  8  9  10\")\nvidas_prota = 3",
+        "detail": "python.hola",
+        "documentation": {}
+    },
+    {
+        "label": "c",
+        "kind": 5,
+        "importPath": "python.hola",
+        "description": "python.hola",
+        "peekOfCode": "c = 20 / 2\nprint (a)\nprint (len(b + str(a) + str(c)))\nprint(\"hola mundo\")\nprint(\"           1\")\nprint(\"        2  3\")\nprint(\"     4  5  6\")\nprint(\" 7  8  9  10\")\nvidas_prota = 3\ncaca = vidas_prota -2",
+        "detail": "python.hola",
+        "documentation": {}
+    },
+    {
+        "label": "vidas_prota",
+        "kind": 5,
+        "importPath": "python.hola",
+        "description": "python.hola",
+        "peekOfCode": "vidas_prota = 3\ncaca = vidas_prota -2\nprint (caca)\nprint(\"                     \")\nprint(\"M       M    RRRRR    \")\nprint(\"M M   M M    R    R   \")\nprint(\"M   M   M    R   R    \")\nprint(\"M       M    R R      \")\nprint(\"M       M    R   R    \")\nprint(\"M       M    R    R   \")",
+        "detail": "python.hola",
+        "documentation": {}
+    },
+    {
+        "label": "caca",
+        "kind": 5,
+        "importPath": "python.hola",
+        "description": "python.hola",
+        "peekOfCode": "caca = vidas_prota -2\nprint (caca)\nprint(\"                     \")\nprint(\"M       M    RRRRR    \")\nprint(\"M M   M M    R    R   \")\nprint(\"M   M   M    R   R    \")\nprint(\"M       M    R R      \")\nprint(\"M       M    R   R    \")\nprint(\"M       M    R    R   \")",
+        "detail": "python.hola",
+        "documentation": {}
+    },
+    {
         "label": "tareas",
         "kind": 5,
         "importPath": "python.mision",
@@ -258,6 +591,42 @@
         "description": "python.mision",
         "peekOfCode": "tareas_seguidas = tareas[2:5]\nprint(tareas_seguidas)\ntry:\n    error = tareas[8]\nexcept IndexError as e:\n    print(f\"Error detectado -> {e}\")\ntareas += [\"ver dc.house\"]\nprint(tareas)",
         "detail": "python.mision",
+        "documentation": {}
+    },
+    {
+        "label": "peso_terrestre",
+        "kind": 5,
+        "importPath": "python.pesos_planetarios",
+        "description": "python.pesos_planetarios",
+        "peekOfCode": "peso_terrestre = float(input(\"Ingrese el peso terrestre: \"))\nnumero_de_planetas = int(input(\"Ingrese el número de planeta donde se encuentra (1)Mercurio , (2)Venus , (3)Marte: , (4)Jupiter , (5)Saturno , (6)Urano , (7)Neptuno: \"))\ndestino_peso = peso_terrestre * numero_de_planetas\ngravedades = {\n    1: 0.38,\n    2: 0.91,\n    3: 0.38,\n    4: 2.34,\n    5: 1.06,\n    6: 0.92,",
+        "detail": "python.pesos_planetarios",
+        "documentation": {}
+    },
+    {
+        "label": "numero_de_planetas",
+        "kind": 5,
+        "importPath": "python.pesos_planetarios",
+        "description": "python.pesos_planetarios",
+        "peekOfCode": "numero_de_planetas = int(input(\"Ingrese el número de planeta donde se encuentra (1)Mercurio , (2)Venus , (3)Marte: , (4)Jupiter , (5)Saturno , (6)Urano , (7)Neptuno: \"))\ndestino_peso = peso_terrestre * numero_de_planetas\ngravedades = {\n    1: 0.38,\n    2: 0.91,\n    3: 0.38,\n    4: 2.34,\n    5: 1.06,\n    6: 0.92,\n    7: 1.19",
+        "detail": "python.pesos_planetarios",
+        "documentation": {}
+    },
+    {
+        "label": "destino_peso",
+        "kind": 5,
+        "importPath": "python.pesos_planetarios",
+        "description": "python.pesos_planetarios",
+        "peekOfCode": "destino_peso = peso_terrestre * numero_de_planetas\ngravedades = {\n    1: 0.38,\n    2: 0.91,\n    3: 0.38,\n    4: 2.34,\n    5: 1.06,\n    6: 0.92,\n    7: 1.19\n}",
+        "detail": "python.pesos_planetarios",
+        "documentation": {}
+    },
+    {
+        "label": "gravedades",
+        "kind": 5,
+        "importPath": "python.pesos_planetarios",
+        "description": "python.pesos_planetarios",
+        "peekOfCode": "gravedades = {\n    1: 0.38,\n    2: 0.91,\n    3: 0.38,\n    4: 2.34,\n    5: 1.06,\n    6: 0.92,\n    7: 1.19\n}\nif numero_de_planetas == 1:",
+        "detail": "python.pesos_planetarios",
         "documentation": {}
     },
     {
@@ -330,6 +699,114 @@
         "description": "python.quesoy",
         "peekOfCode": "dato8 = 'A'         # String\nprint(type(dato3))",
         "detail": "python.quesoy",
+        "documentation": {}
+    },
+    {
+        "label": "rating",
+        "kind": 5,
+        "importPath": "python.restaurant",
+        "description": "python.restaurant",
+        "peekOfCode": "rating = float(input(\"califica el restaurante por favor (5, 4 , 3 , 2 , 1): \"))\nif rating == 5:\n    print(\"Extraordinario\")\nelif rating == 4:\n    print(\"Excelente\")\nelif rating == 3:\n    print(\"bueno\")\nelif rating == 2:\n    print(\"Regular\")\nelif rating == 1:",
+        "detail": "python.restaurant",
+        "documentation": {}
+    },
+    {
+        "label": "edad_usuario",
+        "kind": 5,
+        "importPath": "python.secundaria",
+        "description": "python.secundaria",
+        "peekOfCode": "edad_usuario = int(input(\"¿Cuantos años tienes? :\"))\nif edad_usuario == 14:\n    print(\"Estudiante de primer año\")\nelif edad_usuario == 15:\n    print(\"Estudiante de segundo año\")\nelif edad_usuario == 16:\n    print(\"Estudiante de tercer año\")\nelif edad_usuario == 17:\n    print(\"Estudiante de cuarto año\")\nelse:",
+        "detail": "python.secundaria",
+        "documentation": {}
+    },
+    {
+        "label": "datos_curiosos",
+        "kind": 5,
+        "importPath": "python.snapple",
+        "description": "python.snapple",
+        "peekOfCode": "datos_curiosos = random.randint(0,5)\nif datos_curiosos == 0:\n    print(\"Los flamencos se vuelven rosas por comer camarones.\")\nelif datos_curiosos == 1:\n    print(\"El único alimento que no se descompone es la miel.\")\nelif datos_curiosos == 2:\n    print(\"Los camarones solo pueden nadar hacia atrás.\")\nelif datos_curiosos == 3:\n    print(\"La vida útil de una papila gustativa es de aproximadamente 10 días.\")\nelif datos_curiosos == 4:",
+        "detail": "python.snapple",
+        "documentation": {}
+    },
+    {
+        "label": "gryffindor",
+        "kind": 5,
+        "importPath": "python.sombrero",
+        "description": "python.sombrero",
+        "peekOfCode": "gryffindor = 0\nravenclaw = 0\nhufflepuff = 0\nslytherin = 0\n# Pregunta 1\nrespuesta1 = int(input(\"\\n¿Te gusta más el amanecer o el atardecer? (1)amanecer (2)atardecer : \"))\nif respuesta1 == 1:\n    gryffindor += 1\n    ravenclaw += 1\nelif respuesta1 == 2:",
+        "detail": "python.sombrero",
+        "documentation": {}
+    },
+    {
+        "label": "ravenclaw",
+        "kind": 5,
+        "importPath": "python.sombrero",
+        "description": "python.sombrero",
+        "peekOfCode": "ravenclaw = 0\nhufflepuff = 0\nslytherin = 0\n# Pregunta 1\nrespuesta1 = int(input(\"\\n¿Te gusta más el amanecer o el atardecer? (1)amanecer (2)atardecer : \"))\nif respuesta1 == 1:\n    gryffindor += 1\n    ravenclaw += 1\nelif respuesta1 == 2:\n    hufflepuff += 1",
+        "detail": "python.sombrero",
+        "documentation": {}
+    },
+    {
+        "label": "hufflepuff",
+        "kind": 5,
+        "importPath": "python.sombrero",
+        "description": "python.sombrero",
+        "peekOfCode": "hufflepuff = 0\nslytherin = 0\n# Pregunta 1\nrespuesta1 = int(input(\"\\n¿Te gusta más el amanecer o el atardecer? (1)amanecer (2)atardecer : \"))\nif respuesta1 == 1:\n    gryffindor += 1\n    ravenclaw += 1\nelif respuesta1 == 2:\n    hufflepuff += 1\n    slytherin += 1",
+        "detail": "python.sombrero",
+        "documentation": {}
+    },
+    {
+        "label": "slytherin",
+        "kind": 5,
+        "importPath": "python.sombrero",
+        "description": "python.sombrero",
+        "peekOfCode": "slytherin = 0\n# Pregunta 1\nrespuesta1 = int(input(\"\\n¿Te gusta más el amanecer o el atardecer? (1)amanecer (2)atardecer : \"))\nif respuesta1 == 1:\n    gryffindor += 1\n    ravenclaw += 1\nelif respuesta1 == 2:\n    hufflepuff += 1\n    slytherin += 1\nelse:",
+        "detail": "python.sombrero",
+        "documentation": {}
+    },
+    {
+        "label": "respuesta1",
+        "kind": 5,
+        "importPath": "python.sombrero",
+        "description": "python.sombrero",
+        "peekOfCode": "respuesta1 = int(input(\"\\n¿Te gusta más el amanecer o el atardecer? (1)amanecer (2)atardecer : \"))\nif respuesta1 == 1:\n    gryffindor += 1\n    ravenclaw += 1\nelif respuesta1 == 2:\n    hufflepuff += 1\n    slytherin += 1\nelse:\n    print(\"Entrada incorrecta.\")\n# Pregunta 2",
+        "detail": "python.sombrero",
+        "documentation": {}
+    },
+    {
+        "label": "respuesta2",
+        "kind": 5,
+        "importPath": "python.sombrero",
+        "description": "python.sombrero",
+        "peekOfCode": "respuesta2 = int(input(\"\\nCuando muera, quiero que la gente me recuerde como: (1) El bueno , (2) El grandioso , (3) El sabio , (4) El valiente : \"))\nif respuesta2 == 1:\n    hufflepuff += 2\nelif respuesta2 == 2:\n    slytherin += 2\nelif respuesta2 == 3:\n    ravenclaw += 2\nelif respuesta2 == 4:\n    gryffindor += 2\nelse:",
+        "detail": "python.sombrero",
+        "documentation": {}
+    },
+    {
+        "label": "respuesta3",
+        "kind": 5,
+        "importPath": "python.sombrero",
+        "description": "python.sombrero",
+        "peekOfCode": "respuesta3 = int(input(\"\\n¿Qué tipo de instrumento complace más a tu oído? (1) Violín , (2) trompeta , (3) piano , (4) Tambor : \"))\nif respuesta3 == 1:\n    slytherin += 4\nelif respuesta3 == 2:\n    hufflepuff += 4\nelif respuesta3 == 3:\n    ravenclaw += 4\nelif respuesta3 == 4:\n    gryffindor += 4\nelse:",
+        "detail": "python.sombrero",
+        "documentation": {}
+    },
+    {
+        "label": "casa",
+        "kind": 5,
+        "importPath": "python.sombrero",
+        "description": "python.sombrero",
+        "peekOfCode": "casa = \"\"\nmayor = 0\nif gryffindor > mayor:\n    casa = \"Gryffindor\"\n    mayor = gryffindor\nif ravenclaw > mayor:\n    casa = \"Ravenclaw\"\n    mayor = ravenclaw\nif hufflepuff > mayor:\n    casa = \"Hufflepuff\"",
+        "detail": "python.sombrero",
+        "documentation": {}
+    },
+    {
+        "label": "mayor",
+        "kind": 5,
+        "importPath": "python.sombrero",
+        "description": "python.sombrero",
+        "peekOfCode": "mayor = 0\nif gryffindor > mayor:\n    casa = \"Gryffindor\"\n    mayor = gryffindor\nif ravenclaw > mayor:\n    casa = \"Ravenclaw\"\n    mayor = ravenclaw\nif hufflepuff > mayor:\n    casa = \"Hufflepuff\"\n    mayor = hufflepuff",
+        "detail": "python.sombrero",
         "documentation": {}
     },
     {
