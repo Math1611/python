@@ -9,6 +9,60 @@
         "documentation": {}
     },
     {
+        "label": "Personaje",
+        "kind": 6,
+        "importPath": "clases.clase",
+        "description": "clases.clase",
+        "peekOfCode": "class Personaje:\n    def __init__ (self, nombre, fuerza, inteligencia, defensa, vida):\n        self.__nombre = nombre\n        self.__fuerza = fuerza\n        self.__inteligencia = inteligencia\n        self.__defensa = defensa\n        self.__vida = vida\n    def atributos (self):\n        print(self.__nombre, \":\", sep=\"\")\n        print(\"Fuerza:\", self.__fuerza)",
+        "detail": "clases.clase",
+        "documentation": {}
+    },
+    {
+        "label": "Guerrero",
+        "kind": 6,
+        "importPath": "clases.clase",
+        "description": "clases.clase",
+        "peekOfCode": "class Guerrero(Personaje):\n    def __init__ (self, nombre, fuerza, inteligencia, defensa, vida, espada):\n        super().__init__(nombre, fuerza, inteligencia, defensa, vida)\n        self.espada = espada\n    def cambiar_arma(self):\n        opcion = int(input(\"¿Qué espada deseas usar? (1) Acero Valyrio, daño 8 (2) Matadragones daño 10:\"))\n        if opcion == 1:\n            self.espada = 8\n        elif opcion == 2:\n            self.espada = 10",
+        "detail": "clases.clase",
+        "documentation": {}
+    },
+    {
+        "label": "Mago",
+        "kind": 6,
+        "importPath": "clases.clase",
+        "description": "clases.clase",
+        "peekOfCode": "class Mago(Personaje):\n    def __init__(self, nombre, fuerza, inteligencia, defensa, vida, libro):\n        super().__init__(nombre, fuerza, inteligencia, defensa, vida)\n        self.libro = libro\n    def atributos(self):\n        super().atributos()\n        print(\"Libro: \", self.libro)\n    def daño (self, enemigo):\n        return self.__inteligencia * self.libro - enemigo.defensa\nkaldrogo = Guerrero(\"Kaldrogo\", 20, 30, 20, 100, 5)",
+        "detail": "clases.clase",
+        "documentation": {}
+    },
+    {
+        "label": "kaldrogo",
+        "kind": 5,
+        "importPath": "clases.clase",
+        "description": "clases.clase",
+        "peekOfCode": "kaldrogo = Guerrero(\"Kaldrogo\", 20, 30, 20, 100, 5)\nmi_personaje = Personaje(\"Math1.611\", 10, 20, 10, 100)\ngandalf = Mago(\"Gandalf\", 20, 30, 20, 100, 5)\nkaldrogo.atributos()\nprint(\"_______________________\")\nmi_personaje.atributos()\nprint(\"_______________________\")\ngandalf.atributos()\nprint(\"_______________________\")\n# print(kaldrogo.cambiar_arma())",
+        "detail": "clases.clase",
+        "documentation": {}
+    },
+    {
+        "label": "mi_personaje",
+        "kind": 5,
+        "importPath": "clases.clase",
+        "description": "clases.clase",
+        "peekOfCode": "mi_personaje = Personaje(\"Math1.611\", 10, 20, 10, 100)\ngandalf = Mago(\"Gandalf\", 20, 30, 20, 100, 5)\nkaldrogo.atributos()\nprint(\"_______________________\")\nmi_personaje.atributos()\nprint(\"_______________________\")\ngandalf.atributos()\nprint(\"_______________________\")\n# print(kaldrogo.cambiar_arma())\n# kaldrogo.atributos()",
+        "detail": "clases.clase",
+        "documentation": {}
+    },
+    {
+        "label": "gandalf",
+        "kind": 5,
+        "importPath": "clases.clase",
+        "description": "clases.clase",
+        "peekOfCode": "gandalf = Mago(\"Gandalf\", 20, 30, 20, 100, 5)\nkaldrogo.atributos()\nprint(\"_______________________\")\nmi_personaje.atributos()\nprint(\"_______________________\")\ngandalf.atributos()\nprint(\"_______________________\")\n# print(kaldrogo.cambiar_arma())\n# kaldrogo.atributos()\n# print(kaldrogo.espada)",
+        "detail": "clases.clase",
+        "documentation": {}
+    },
+    {
         "label": "usuario",
         "kind": 5,
         "importPath": "control-de-flujo.and",
@@ -126,6 +180,96 @@
         "documentation": {}
     },
     {
+        "label": "pedir_numero",
+        "kind": 2,
+        "importPath": "funciones.13_excepciones",
+        "description": "funciones.13_excepciones",
+        "peekOfCode": "def pedir_numero():\n    try:\n        numero = int(input(\"Introduce un número: \"))\n        print(\"Gracias!! Tu numero es:\", numero)\n    except ValueError:\n        print(\"Eso no es un número válido. Intenta otra vez.\")\npedir_numero()",
+        "detail": "funciones.13_excepciones",
+        "documentation": {}
+    },
+    {
+        "label": "division_segura",
+        "kind": 2,
+        "importPath": "funciones.14_ex2",
+        "description": "funciones.14_ex2",
+        "peekOfCode": "def division_segura():\n    try:\n        num1 = int(input(\"ingresa un numero: \"))\n        num2 = int(input(\"ingresa otro numero: \"))\n        resultado = num1 / num2\n        print(\"El resultado de la division es:\", resultado)\n    except ZeroDivisionError:\n        print(\"Lo sentimos no se puede realizar esta división\")\n    except ValueError:\n        print(\"Error: solo debes ingresar numeros\")",
+        "detail": "funciones.14_ex2",
+        "documentation": {}
+    },
+    {
+        "label": "mostrar_elemento",
+        "kind": 2,
+        "importPath": "funciones.15_ex3",
+        "description": "funciones.15_ex3",
+        "peekOfCode": "def mostrar_elemento():\n    frutas = [\"manzana\", \"banana\", \"naranja\", \"uva\"]\n    try:\n        indice = int(input(\" elige una posición (0-3): \"))\n        print(\"fruta elegida\", frutas[indice]) \n    except IndexError:\n        print(\"Esta posición no existe en la lista\")\n    except ValueError:\n        print(\"Debes ingresar un número\")\nmostrar_elemento()",
+        "detail": "funciones.15_ex3",
+        "documentation": {}
+    },
+    {
+        "label": "buscar_cantante",
+        "kind": 2,
+        "importPath": "funciones.16_ex_4",
+        "description": "funciones.16_ex_4",
+        "peekOfCode": "def buscar_cantante():\n    cantantes = {\n        \"nombre\": \"Luis Miguel\",\n        \"país\" : \"mexico\",\n    }\n    try:\n        clave = input(\"¿Que quieres saber? (nombre o país): \")\n        print(\"Resultado:\", cantantes[clave])\n    except KeyError:\n        print(\"No existe la clave\")",
+        "detail": "funciones.16_ex_4",
+        "documentation": {}
+    },
+    {
+        "label": "pedir_numero",
+        "kind": 2,
+        "importPath": "funciones.17_bonus_ex",
+        "description": "funciones.17_bonus_ex",
+        "peekOfCode": "def pedir_numero():\n    while True:\n        try:\n            numero = int(input(\"Escribe un número entero: \"))\n            print(\"Gracias, tu numero es:\", numero)\n            break\n        except ValueError:\n            print(\"Eso no es un número válido. Inténtalo de nuevo.\")\npedir_numero()",
+        "detail": "funciones.17_bonus_ex",
+        "documentation": {}
+    },
+    {
+        "label": "suma",
+        "kind": 2,
+        "importPath": "funciones.18_args",
+        "description": "funciones.18_args",
+        "peekOfCode": "def suma(a,b,c):\n    return  a + b + c\nsuma(2,3,4)\nprint(suma(2,3,4))\nprint(suma(2,3,4) + 5)",
+        "detail": "funciones.18_args",
+        "documentation": {}
+    },
+    {
+        "label": "suma",
+        "kind": 2,
+        "importPath": "funciones.19_args1",
+        "description": "funciones.19_args1",
+        "peekOfCode": "def suma(**args):\n    s=0\n    for arg in args:\n        s += arg\n    return s\nresultado = suma(1,2,3,4)\nprint(resultado)",
+        "detail": "funciones.19_args1",
+        "documentation": {}
+    },
+    {
+        "label": "resultado",
+        "kind": 5,
+        "importPath": "funciones.19_args1",
+        "description": "funciones.19_args1",
+        "peekOfCode": "resultado = suma(1,2,3,4)\nprint(resultado)",
+        "detail": "funciones.19_args1",
+        "documentation": {}
+    },
+    {
+        "label": "suma",
+        "kind": 2,
+        "importPath": "funciones.20_kwargs",
+        "description": "funciones.20_kwargs",
+        "peekOfCode": "def suma(**kwargs):\n    print(type(kwargs))\nsuma (y=4, x=8 , a=6 , c=1)",
+        "detail": "funciones.20_kwargs",
+        "documentation": {}
+    },
+    {
+        "label": "funcion",
+        "kind": 2,
+        "importPath": "funciones.21_mix",
+        "description": "funciones.21_mix",
+        "peekOfCode": "def funcion(a,b,*args, **kwargs):\n    print(\"a=\", a)\n    print(\"b=\", b)\n    for arg in args:\n        print(\"args=\", arg)\n    for key, value in kwargs.items():\n        print(key, \"=\", value)\nfuncion(1,2,3,4,5,6,7,8,9,10, nombre=\"Luis\", edad=25)",
+        "detail": "funciones.21_mix",
+        "documentation": {}
+    },
+    {
         "label": "sumar",
         "kind": 2,
         "importPath": "funciones.alcance_global",
@@ -150,6 +294,24 @@
         "description": "funciones.alcance_global",
         "peekOfCode": "respuesta = 0\ndef sumar(x,y):\n    respuesta = x + y\n    return respuesta\nprint(sumar(2,1))",
         "detail": "funciones.alcance_global",
+        "documentation": {}
+    },
+    {
+        "label": "obtener_articulos",
+        "kind": 2,
+        "importPath": "funciones.auto_servicio",
+        "description": "funciones.auto_servicio",
+        "peekOfCode": "def obtener_articulos():\n    if opcion == 1:\n        return \"hamburguesa 1/4 libra\"\n    elif opcion == 2:\n        return \"papas fritas\"\n    elif opcion == 3:\n        return \"refresco\"\n    elif opcion == 4:\n        return \"hot dog\"",
+        "detail": "funciones.auto_servicio",
+        "documentation": {}
+    },
+    {
+        "label": "opcion",
+        "kind": 5,
+        "importPath": "funciones.auto_servicio",
+        "description": "funciones.auto_servicio",
+        "peekOfCode": "opcion = 0\ndef obtener_articulos():\n    if opcion == 1:\n        return \"hamburguesa 1/4 libra\"\n    elif opcion == 2:\n        return \"papas fritas\"\n    elif opcion == 3:\n        return \"refresco\"\n    elif opcion == 4:\n        return \"hot dog\"",
+        "detail": "funciones.auto_servicio",
         "documentation": {}
     },
     {
@@ -279,6 +441,15 @@
         "documentation": {}
     },
     {
+        "label": "mi_funcion_suma",
+        "kind": 2,
+        "importPath": "funciones.comentarios",
+        "description": "funciones.comentarios",
+        "peekOfCode": "def mi_funcion_suma(a, b):\n    \"\"\"\n    Descripcion de la funcion a realizar\n    \"\"\"\n    return  a + b \nmi_funcion_suma(2,6)\nprint(mi_funcion_suma(2,6))",
+        "detail": "funciones.comentarios",
+        "documentation": {}
+    },
+    {
         "label": "fortuna",
         "kind": 2,
         "importPath": "funciones.fortuna",
@@ -294,6 +465,132 @@
         "description": "funciones.fortuna",
         "peekOfCode": "palabras_fortuna = [\n    \"No persigas la felicidad, créala.\",\n    \"Todas las cosas son difíciles antes de ser fáciles.\",\n    \"El pajaro madrugador consigue el gusano, pero el segundo ratón se lleva el queso.\",\n    \"Alguien en tu vida necesita una carta de tu parte.\",\n    \"No solo pienses. ¡Actúa!.\",\n    \"TU corazon se acelerará.\",\n    \"La fortuna que buscas está en otra galleta.\",\n    \"Ayuda! Estoy prisionero en una panaderia china!.\"\n]",
         "detail": "funciones.fortuna",
+        "documentation": {}
+    },
+    {
+        "label": "matriz",
+        "kind": 5,
+        "importPath": "funciones.funcionesinmediatas",
+        "description": "funciones.funcionesinmediatas",
+        "peekOfCode": "matriz = [ [10, 15, 20], [3, 7, 14] ]\ncantantes = [\n   {\"nombre\": \"Ricky Martin\", \"pais\": \"Puerto Rico\"},\n   {\"nombre\": \"Chayanne\", \"pais\": \"Puerto Rico\"}\n]\nciudades = {\n   \"México\": [\"Ciudad de México\", \"Guadalajara\", \"Cancún\"],\n   \"Chile\": [\"Santiago\", \"Concepción\", \"Viña del Mar\"]\n}\ncoordenadas = [",
+        "detail": "funciones.funcionesinmediatas",
+        "documentation": {}
+    },
+    {
+        "label": "cantantes",
+        "kind": 5,
+        "importPath": "funciones.funcionesinmediatas",
+        "description": "funciones.funcionesinmediatas",
+        "peekOfCode": "cantantes = [\n   {\"nombre\": \"Ricky Martin\", \"pais\": \"Puerto Rico\"},\n   {\"nombre\": \"Chayanne\", \"pais\": \"Puerto Rico\"}\n]\nciudades = {\n   \"México\": [\"Ciudad de México\", \"Guadalajara\", \"Cancún\"],\n   \"Chile\": [\"Santiago\", \"Concepción\", \"Viña del Mar\"]\n}\ncoordenadas = [\n   {\"latitud\": 8.2588997, \"longitud\": -84.9399704}",
+        "detail": "funciones.funcionesinmediatas",
+        "documentation": {}
+    },
+    {
+        "label": "ciudades",
+        "kind": 5,
+        "importPath": "funciones.funcionesinmediatas",
+        "description": "funciones.funcionesinmediatas",
+        "peekOfCode": "ciudades = {\n   \"México\": [\"Ciudad de México\", \"Guadalajara\", \"Cancún\"],\n   \"Chile\": [\"Santiago\", \"Concepción\", \"Viña del Mar\"]\n}\ncoordenadas = [\n   {\"latitud\": 8.2588997, \"longitud\": -84.9399704}\n]\n# Cambia el valor de 3 en matriz por 6. Una vez realizado el cambio tu matriz debería ser: [ [10, 15, 20], [6, 7, 14] ]\nmatriz[1][0] = 6\nprint(matriz)",
+        "detail": "funciones.funcionesinmediatas",
+        "documentation": {}
+    },
+    {
+        "label": "coordenadas",
+        "kind": 5,
+        "importPath": "funciones.funcionesinmediatas",
+        "description": "funciones.funcionesinmediatas",
+        "peekOfCode": "coordenadas = [\n   {\"latitud\": 8.2588997, \"longitud\": -84.9399704}\n]\n# Cambia el valor de 3 en matriz por 6. Una vez realizado el cambio tu matriz debería ser: [ [10, 15, 20], [6, 7, 14] ]\nmatriz[1][0] = 6\nprint(matriz)\n# Cambia el nombre del primer cantante de “Ricky Martin” a “Enrique Martin Morales”\ncantantes[0][\"nombre\"] = \"Enrique Martin Morales\"\nprint(cantantes)\n# En ciudades, cambia “Cancún” por “Monterrey”",
+        "detail": "funciones.funcionesinmediatas",
+        "documentation": {}
+    },
+    {
+        "label": "matriz[1][0]",
+        "kind": 5,
+        "importPath": "funciones.funcionesinmediatas",
+        "description": "funciones.funcionesinmediatas",
+        "peekOfCode": "matriz[1][0] = 6\nprint(matriz)\n# Cambia el nombre del primer cantante de “Ricky Martin” a “Enrique Martin Morales”\ncantantes[0][\"nombre\"] = \"Enrique Martin Morales\"\nprint(cantantes)\n# En ciudades, cambia “Cancún” por “Monterrey”\nciudades[\"mexico\"][2] = \"Monterrey\"\n# En las coordenadas, cambia el valor de “latitud” por 9.9355431\ncoordenadas[0][\"latitud\"] = 9.9355431\nprint(coordenadas)",
+        "detail": "funciones.funcionesinmediatas",
+        "documentation": {}
+    },
+    {
+        "label": "cantantes[0][\"nombre\"]",
+        "kind": 5,
+        "importPath": "funciones.funcionesinmediatas",
+        "description": "funciones.funcionesinmediatas",
+        "peekOfCode": "cantantes[0][\"nombre\"] = \"Enrique Martin Morales\"\nprint(cantantes)\n# En ciudades, cambia “Cancún” por “Monterrey”\nciudades[\"mexico\"][2] = \"Monterrey\"\n# En las coordenadas, cambia el valor de “latitud” por 9.9355431\ncoordenadas[0][\"latitud\"] = 9.9355431\nprint(coordenadas)",
+        "detail": "funciones.funcionesinmediatas",
+        "documentation": {}
+    },
+    {
+        "label": "ciudades[\"mexico\"][2]",
+        "kind": 5,
+        "importPath": "funciones.funcionesinmediatas",
+        "description": "funciones.funcionesinmediatas",
+        "peekOfCode": "ciudades[\"mexico\"][2] = \"Monterrey\"\n# En las coordenadas, cambia el valor de “latitud” por 9.9355431\ncoordenadas[0][\"latitud\"] = 9.9355431\nprint(coordenadas)",
+        "detail": "funciones.funcionesinmediatas",
+        "documentation": {}
+    },
+    {
+        "label": "coordenadas[0][\"latitud\"]",
+        "kind": 5,
+        "importPath": "funciones.funcionesinmediatas",
+        "description": "funciones.funcionesinmediatas",
+        "peekOfCode": "coordenadas[0][\"latitud\"] = 9.9355431\nprint(coordenadas)",
+        "detail": "funciones.funcionesinmediatas",
+        "documentation": {}
+    },
+    {
+        "label": "iterarDiccionario",
+        "kind": 2,
+        "importPath": "funciones.funcionesinmediatas2",
+        "description": "funciones.funcionesinmediatas2",
+        "peekOfCode": "def iterarDiccionario(lista):\n    for diccionario in lista:\n        print(\", \".join(f\"{key}: {value}\" for key, value in diccionario.items()))\niterarDiccionario(cantantes)",
+        "detail": "funciones.funcionesinmediatas2",
+        "documentation": {}
+    },
+    {
+        "label": "cantantes",
+        "kind": 5,
+        "importPath": "funciones.funcionesinmediatas2",
+        "description": "funciones.funcionesinmediatas2",
+        "peekOfCode": "cantantes = [\n   {\"nombre\": \"Ricky Martin\", \"pais\": \"Puerto Rico\"},\n   {\"nombre\": \"Chayanne\", \"pais\": \"Puerto Rico\"},\n   {\"nombre\": \"José José\", \"pais\": \"Mexico\"},\n   {\"nombre\": \"Juan Luis Guerra\", \"pais\": \"Republica Dominicana\"}\n]\ndef iterarDiccionario(lista):\n    for diccionario in lista:\n        print(\", \".join(f\"{key}: {value}\" for key, value in diccionario.items()))\niterarDiccionario(cantantes)",
+        "detail": "funciones.funcionesinmediatas2",
+        "documentation": {}
+    },
+    {
+        "label": "iterarDiccionario2",
+        "kind": 2,
+        "importPath": "funciones.funcionesinmediatas3",
+        "description": "funciones.funcionesinmediatas3",
+        "peekOfCode": "def iterarDiccionario2(artista, nac):\n    for diccionario in artista:\n        print(\", \".join(f\"{key}: {value}\" for key, value in diccionario.items()))\n    for diccionario in nac:\n        print(\", \".join(f\"{key}: {value}\" for key, value in diccionario.items()))\niterarDiccionario2(cantantes)",
+        "detail": "funciones.funcionesinmediatas3",
+        "documentation": {}
+    },
+    {
+        "label": "cantantes",
+        "kind": 5,
+        "importPath": "funciones.funcionesinmediatas3",
+        "description": "funciones.funcionesinmediatas3",
+        "peekOfCode": "cantantes = [\n   {\"nombre\": \"Ricky Martin\", \"pais\": \"Puerto Rico\"},\n   {\"nombre\": \"Chayanne\", \"pais\": \"Puerto Rico\"},\n   {\"nombre\": \"José José\", \"pais\": \"Mexico\"},\n   {\"nombre\": \"Juan Luis Guerra\", \"pais\": \"Republica Dominicana\"}\n]\ndef iterarDiccionario2(artista, nac):\n    for diccionario in artista:\n        print(\", \".join(f\"{key}: {value}\" for key, value in diccionario.items()))\n    for diccionario in nac:",
+        "detail": "funciones.funcionesinmediatas3",
+        "documentation": {}
+    },
+    {
+        "label": "informacionDiccionario",
+        "kind": 2,
+        "importPath": "funciones.funcionesinmediatas4",
+        "description": "funciones.funcionesinmediatas4",
+        "peekOfCode": "def informacionDiccionario(diccionario):\n    for clave, valores in diccionario.items():\n        print(f\"{len(valores)} {clave.upper()}\")\n        for valor in valores:\n            print(valor)\nprint( \"\\n Iterar a través de un diccionario con valores de la lista\")\ninformacionDiccionario(costa_rica)\n#imprime:\n# 4 CIUDADES\n# San José",
+        "detail": "funciones.funcionesinmediatas4",
+        "documentation": {}
+    },
+    {
+        "label": "costa_rica",
+        "kind": 5,
+        "importPath": "funciones.funcionesinmediatas4",
+        "description": "funciones.funcionesinmediatas4",
+        "peekOfCode": "costa_rica = {\n   \"ciudades\": [\"San José\", \"Limón\", \"Cartago\", \"Puntarenas\"],\n   \"comidas\": [\"gallo pinto\", \"casado\", \"tamales\", \"chifrijo\", \"olla de carne\"]\n}\ndef informacionDiccionario(diccionario):\n    for clave, valores in diccionario.items():\n        print(f\"{len(valores)} {clave.upper()}\")\n        for valor in valores:\n            print(valor)\nprint( \"\\n Iterar a través de un diccionario con valores de la lista\")",
+        "detail": "funciones.funcionesinmediatas4",
         "documentation": {}
     },
     {
